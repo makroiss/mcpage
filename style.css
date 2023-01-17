@@ -1,0 +1,129 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    height: 100%;
+}
+
+a {
+    color: #15c;
+}
+
+body {
+    height: 100%;
+    background: #fff;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: 1.6rem;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: #000;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-family: 'Nanum Gothic', cursive;
+    font-size: 2.0rem;
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0 1rem 0;
+    color: #000;
+    font-weight: normal;
+}
+
+h4 {
+    margin: 1.3rem 0 0 0;
+}
+
+p {
+    margin: 1rem 1rem 0 1rem;
+}
+
+img {
+    object-fit: cover;
+    object-position: 100% 50%;
+    height: 700px;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 2rem 0;
+}
+
+#navtoggle {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.menu a {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #15c;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.menu a:hover {
+    background-color: #eee;
+}
+
+.date {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.datemini {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.rsvp {
+    text-align: center;
+}
+
+.times>div {
+    display: flex;
+}
+
+.times>div>div {
+    margin: 1rem 0.5rem;
+    flex: 1;
+}
+
+.times>div>div:first-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 50px;
+}
+
+li {
+    padding-left: 5px;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .menu {
+        flex-direction: column;
+    }
+}
